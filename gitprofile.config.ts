@@ -88,7 +88,7 @@ const CONFIG = {
     'PHP',
     'Laravel',
     'JavaScript',
-    'React.js,
+    'React.js',
     'Node.js',
     'Firebase',
     'MongoDB',
