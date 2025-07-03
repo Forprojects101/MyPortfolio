@@ -63,7 +63,7 @@ const CONFIG = {
     x: '',
     mastodon: '',
     researchGate: '',
-    facebook: 'jesson.mondejar.10',
+    facebook: 'code.write.debug.learn.build.repeat.improve.grow',
     instagram: '',
     reddit: '',
     threads: '',
@@ -78,7 +78,7 @@ const CONFIG = {
     telegram: '',
     website: '',
     phone: '',
-    email: 'jessonmondejar1@gmail.com',
+    email: 'mondejarjessonnoel@smcbi.edu.ph',
   },
   resume: {
     fileUrl:
