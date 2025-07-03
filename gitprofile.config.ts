@@ -226,7 +226,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://www.facebook.com/jesson.mondejar.10"
+      class="text-primary" href="https://www.facebook.com/code.write.debug.learn.build.repeat.improve.grow"
       target="_blank"
       rel="noreferrer"
     >Jesson Mondejar</a> and ❤️`,
