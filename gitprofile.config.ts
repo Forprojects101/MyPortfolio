@@ -78,7 +78,7 @@ const CONFIG = {
     telegram: '',
     website: '',
     phone: '',
-    email: 'mondejarjessonnoel@smcbi.edu.ph',
+    email: 'forprojectonly101@gmail.com',
   },
   resume: {
     fileUrl:
