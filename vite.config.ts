@@ -23,7 +23,23 @@ export default defineConfig({
           VitePWA({
             registerType: 'autoUpdate',
             workbox: {
-              navigateFallback: undefined,
+              navigateFallback: '/index.html',
+              globPatterns: [
+                '**/*.{js,css,html,ico,png,svg,jpg,jpeg,json,webmanifest}',
+              ],
+              runtimeCaching: [
+                {
+                  urlPattern: /^https:\/\/api\.github\.com\/.*/i,
+                  handler: 'NetworkFirst',
+                  options: {
+                    cacheName: 'github-api-cache',
+                    expiration: {
+                      maxEntries: 50,
+                      maxAgeSeconds: 60 * 60 * 24, // 24 hours
+                    },
+                  },
+                },
+              ],
             },
             includeAssets: ['logo.png'],
             manifest: {
@@ -33,13 +49,20 @@ export default defineConfig({
               theme_color: CONFIG.themeConfig?.customTheme?.primary || '#fc055b',
               background_color: CONFIG.themeConfig?.customTheme?.['base-100'] || '#ffffff',
               display: 'standalone',
+              start_url: '/',
+              scope: '/',
+              orientation: 'portrait',
               icons: [
                 {
                   src: 'logo.png',
                   sizes: '64x64 32x32 24x24 16x16 192x192 512x512',
                   type: 'image/png',
+                  purpose: 'any maskable',
                 },
               ],
+            },
+            devOptions: {
+              enabled: false,
             },
           }),
         ]
@@ -47,5 +70,12 @@ export default defineConfig({
   ],
   define: {
     CONFIG: CONFIG,
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    },
   },
 });
