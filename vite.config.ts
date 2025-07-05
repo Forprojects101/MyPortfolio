@@ -61,21 +61,11 @@ export default defineConfig({
                 },
               ],
             },
-            devOptions: {
-              enabled: false,
-            },
           }),
         ]
       : []),
   ],
   define: {
     CONFIG: CONFIG,
-  },
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks: undefined,
-      },
-    },
   },
 });
