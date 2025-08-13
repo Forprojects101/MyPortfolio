@@ -78,11 +78,11 @@ const CONFIG = {
     telegram: '',
     website: '',
     phone: '',
-    email: 'forprojectonly101@gmail.com',
+    email: 'mondejarjessonnoel@smcbi.edu.ph',
   },
   resume: {
     fileUrl:
-      'https://docs.google.com/document/d/1odUQH7dkeqFVTZnXZJwM_pNQtC0cH4y7/edit?usp=sharing&ouid=109977615897588793844&rtpof=true&sd=true', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1U0bON4n5aoTc_ib8zaOs630JrnRAX5KI/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
