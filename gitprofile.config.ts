@@ -1,14 +1,9 @@
-// gitprofile.config.ts
 
 const CONFIG = {
   github: {
-    username: 'Bot10011', // Your GitHub org/user name. (This is the only required config)
+    username: 'Bot10011', 
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
+
   base: '/',
   projects: {
     github: {
@@ -82,7 +77,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1U0bON4n5aoTc_ib8zaOs630JrnRAX5KI/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1wxG1QQttJsdMhyiSZbV7mX1T3Jy7slMO/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
