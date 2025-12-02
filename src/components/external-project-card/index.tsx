@@ -94,15 +94,20 @@ const ExternalProjectCard = ({
                   <h2 className="font-medium text-center opacity-60 mb-1">
                     {item.title}
                   </h2>
-                  {item.underDevelopment && (
+                  {item.underDevelopment ? (
                     <div className="flex justify-center mb-3">
                       <div className="inline-flex items-center text-xs font-medium bg-base-200 text-primary px-3 py-1 rounded-md shadow-sm border border-base-300 status-badge">
                         <span className="mr-1">In Progress</span>
                         <span className="loading-spinner"></span>
                       </div>
                     </div>
+                  ) : (
+                    <div className="flex justify-center mb-3">
+                      <div className="inline-flex items-center text-xs font-medium bg-success text-success-content px-3 py-1 rounded-md shadow-sm border border-success status-badge">
+                        <span className="mr-1">Finished</span>
+                      </div>
+                    </div>
                   )}
-                  {!item.underDevelopment && <div className="mb-3"></div>}
                   {item.imageUrl && (
                     <div className="relative mb-4">
                       <div className="w-full max-w-[200px] mx-auto border border-base-300 shadow-md rounded-lg overflow-hidden inner-shadow project-image-container">
