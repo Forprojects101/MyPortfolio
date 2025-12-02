@@ -33,8 +33,8 @@ const CONFIG = {
             'A role-based system for student registration, subject enrollment, and grade viewing at SMCBI.',
           imageUrl:
             'https://i.postimg.cc/xJkRrgq6/2.png',
-          link: '',
-          underDevelopment: true,
+          link: 'https://lp-smcbiportal.vercel.app/',
+          underDevelopment: false,
         },
         {
           title: 'Scholarship Management System',
@@ -127,10 +127,10 @@ const CONFIG = {
       to: '2025',
     },
     {
-      institution: '',
-      degree: '',
-      from: '',
-      to: '',
+      institution: 'Nazareth High School',
+      degree: 'ICT- Information and Communications Technology',
+      from: '2017',
+      to: '2019',
     },
   ],
   publications: [
@@ -220,13 +220,7 @@ const CONFIG = {
     },
   },
 
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://www.facebook.com/code.write.debug.learn.build.repeat.improve.grow"
-      target="_blank"
-      rel="noreferrer"
-    >Jesson Mondejar</a> and ❤️`,
-
+  
   enablePWA: true,
 };
 
