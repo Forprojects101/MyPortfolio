@@ -36,6 +36,15 @@ const CONFIG = {
           link: 'https://lp-smcbiportal.vercel.app/',
           underDevelopment: false,
         },
+         {
+          title: 'Horizon Hikers',
+          description:
+            'A hiking booking platform that helps adventurers discover trails, book guided hikes, and plan mountain adventures with ease.',
+          imageUrl:
+            'https://i.postimg.cc/m2Ct1mHC/Untitled.png',
+          link: 'https://horizonhikers.qzz.io/',
+          underDevelopment: false,
+        },
         {
           title: 'Scholarship Management System',
           description:
