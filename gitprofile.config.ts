@@ -45,7 +45,6 @@ const CONFIG = {
           link: 'https://horizonhikers.qzz.io/',
           underDevelopment: false,
         },
-
         {
           title: 'Scholarship Management System',
           description:
@@ -145,8 +144,8 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Hi, I’m Jesson Mondejar ',
-      description: ' A dedicated web and systems developer passionate about building practical, efficient, user-focused digital solutions. Always learning, exploring new ideas, and improving skills. If you need someone to bring your ideas to life, let’s connect.',
+      title: 'Hi, I\'m Jesson Mondejar ',
+      description: ' A dedicated web and systems developer passionate about building practical, efficient, user-focused digital solutions. Always learning, exploring new ideas, and improving skills. If you need someone to bring your ideas to life, let\'s connect.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
@@ -179,7 +178,6 @@ const CONFIG = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-
       'fantasy',
       'dim',
     ],
@@ -195,7 +193,6 @@ const CONFIG = {
       '--rounded-btn': '3rem',
     },
   },
-
 
   enablePWA: true,
 };
