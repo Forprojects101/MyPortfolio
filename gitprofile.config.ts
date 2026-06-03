@@ -1,7 +1,7 @@
 
 const CONFIG = {
   github: {
-    username: 'Bot10011', 
+    username: 'Forprojects101', 
   },
 
   base: '/',
