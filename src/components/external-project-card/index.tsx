@@ -123,10 +123,10 @@ const ExternalProjectCard = ({
                       <LazyImage
                         src={item.imageUrl}
                         alt={'project thumbnail'}
-                        className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
+                        className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
                         placeholder={skeleton({
                           widthCls: 'w-full',
-                          heightCls: 'h-56',
+                          heightCls: 'h-auto aspect-video',
                           shape: '',
                         })}
                       />
